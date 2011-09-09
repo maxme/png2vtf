@@ -1,0 +1,14 @@
+What ?
+======
+
+This tool permits to convert alpha png file to a pseudo-VTF file
+format in IMAGE_FORMAT_A8.
+
+How to compile and run the C version
+====================================
+edit the configure.mk file to make CONF_INCS and CONF_LIBS links to
+your libpng installation directory.
+
+$ make
+$ png2vtf in.png out.vtf
+
